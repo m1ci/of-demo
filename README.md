@@ -14,7 +14,7 @@ curl -X 'PUT' \
   -d '{
   "@context": "https://downloads.dbpedia.org/databus/context.jsonld",
   "@graph": {
-    "@id": "https://databus.dbpedia.org/m1ci/openflaas_demo",
+    "@id": "https://databus.dbpedia.org/m1ci/openflaas_de",
     "@type": "Group",
     "title": "openflaas_demo group",
     "description": "Test group for OpenFLaaS."
