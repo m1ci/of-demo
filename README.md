@@ -7,8 +7,9 @@
 ## Create Group
 ```
 curl -X 'PUT' \
-  'https://databus.dbpedia.org/m1ci/openflaas_demo' \
+  'https://databus.dbpedia.org/m1ci/openflaas_de' \
   -H 'accept: application/json' \
+  -H 'X-API-KEY: YOUR_KEY' \
   -H 'Content-Type: application/ld+json' \
   -d '{
   "@context": "https://downloads.dbpedia.org/databus/context.jsonld",
@@ -27,6 +28,7 @@ curl -X 'PUT' \
 curl -X 'PUT' \
   'https://databus.dbpedia.org/m1ci/openflaas_de/reviews' \
   -H 'accept: application/json' \
+  -H 'X-API-KEY: YOUR_KEY' \
   -H 'Content-Type: application/ld+json' \
   -d '{
   "@context": "https://downloads.dbpedia.org/databus/context.jsonld",
@@ -43,7 +45,7 @@ curl -X 'PUT' \
 curl -X 'PUT' \
   'https://databus.dbpedia.org/m1ci/openflaas_de/reviews/2025-03-26' \
   -H 'accept: application/json' \
-  -H 'X-API-KEY: f665d786-a75b-4c46-b659-25e6a6d3d3f3' \
+  -H 'X-API-KEY: YOUR_KEY' \
   -H 'Content-Type: application/ld+json' \
   -d '{
   "@context": "https://downloads.dbpedia.org/databus/context.jsonld",
